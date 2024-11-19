@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Portfolio Website</title>
+  <meta name="title" content="Hassan Shah">
+  <meta name="description" content="This is a programmer portfolio html template.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - custom font link
+  -->
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="OIP (7).jpeg">
+  <link rel="preload" as="image" href="./assets/images/loading-circle.svg">
+
+</head>
+
+<body class="active" id="top">
+
+  <!-- 
+    -#PRELOADING
+  -->
+
+  <div class="loading" data-loading>
+    <img src="OIP (7).jpeg" width="55" height="55" alt="loading" class="img">
+    <img src="./assets/images/loading-circle.svg" width="70" height="70" alt="" class="circle">
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="download__7_-removebg-preview.png" width="40" height="40" alt="Hassan home">
+      </a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <img src="./assets/images/menu.svg" width="17" height="17" alt="menu icon">
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="download__7_-removebg-preview.png" width="140" height="40" alt="Hassan home" class="img">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <span class="span one"></span>
+            <span class="span two"></span>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#gallery" class="navbar-link" data-nav-link>Gallery</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact us</a>
+          </li>
+
+        </ul>
+
+        <button class="login-btn">
+          <img src="./assets/images/user.svg" width="21" height="21" alt="user icon">
+
+          <span class="span">Login</span>
+        </button>
+
+        <p class="navbar-title">My Address</p>
+
+        <address class="navbar-text">
+          Mohalla Sagheer Park Nowsherhra Road Gujranwala
+        </address>
+
+        <p class="navbar-text">
+          Urgent issue? call us at
+          <a href="tel:03208500172" class="contact-link">03208500172</a>
+        </p>
+
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <img src="WhatsApp_Image_2024-08-04_at_12.58.40_5f675698-removebg-preview.png" width="322" height="322" alt="" class="hero-banner">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Hassan Shah</h1>
+
+            <div class="wrapper h2">
+              <strong class="strong" data-letter-effect>Programmer</strong>
+              <strong class="strong" data-letter-effect>Web developer</strong>
+              <strong class="strong" data-letter-effect>Student</strong>
+              <strong class="strong" data-letter-effect>App developer</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+        <img src="./assets/images/hero-shape.svg" width="211" height="189" alt="" class="shape">
+
+      </section>
+
+
+
+
+<!-- 
+  - #GALLERY
+-->
+
+<section class="section gallery" id="gallery">
+  <div class="container">
+
+    <ul class="gallery-list">
+
+      <li class="gallery-item" data-reveal>
+
+        <div class="gallery-card">
+
+          <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+            <img src="pawel-czerwinski-WEizaiwLk1k-unsplash.jpg" width="450" height="625" loading="lazy" alt="Project 1"
+              class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h6">
+              <a href="#" class="card-title">Project 1</a>
+            </h3>
+
+            <span class="card-tag">Web Development</span>
+          </div>
+
+          <a href="#" class="btn-icon">
+            <img src="th.jpeg" width="43" height="20" loading="lazy"
+              alt="arrow-forward icon">
+          </a>
+
+        </div>
+
+        <div class="gallery-card">
+
+          <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+            <img src="priscilla-du-preez-nNMBa7Y1Ymk-unsplash.jpg" width="450" height="625" loading="lazy"
+              alt="Project 2" class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h6">
+              <a href="#" class="card-title">Project 2</a>
+            </h3>
+
+            <span class="card-tag">Mobile App</span>
+          </div>
+
+          <a href="#" class="btn-icon">
+            <img src="onur-binay-ekSKQYwauDM-unsplash.jpg" width="43" height="20" loading="lazy"
+              alt="arrow-forward icon">
+          </a>
+
+        </div>
+
+      </li>
+
+      <li class="gallery-item" data-reveal>
+
+        <div class="gallery-card">
+
+          <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+            <img src="markus-spiske-4T5MTKMrjZg-unsplash.jpg" width="450" height="625" loading="lazy" alt="Project 3"
+              class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h6">
+              <a href="#" class="card-title">Project 3</a>
+            </h3>
+
+            <span class="card-tag">Programming</span>
+          </div>
+
+          <a href="#" class="btn-icon">
+            <img src="andy-kelly-0E_vhMVqL9g-unsplash.jpg" width="43" height="20" loading="lazy"
+              alt="arrow-forward icon">
+          </a>
+
+        </div>
+
+        <div class="gallery-card">
+
+          <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+            <img src="fatos-bytyqi-Agx5_TLsIf4-unsplash.jpg" width="450" height="625" loading="lazy" alt="Project 4"
+              class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h6">
+              <a href="#" class="card-title">Project 4</a>
+            </h3>
+
+            <span class="card-tag">Data Base</span>
+          </div>
+
+          <a href="#" class="btn-icon">
+            <img src="altumcode-PNbDkQ2DDgM-unsplash.jpg" width="43" height="20" loading="lazy"
+              alt="arrow-forward icon">
+          </a>
+
+        </div>
+
+      </li>
+
+      <li class="gallery-item" data-reveal>
+
+        <div class="gallery-card">
+
+          <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+            <img src="jason-goodman-Oalh2MojUuk-unsplash.jpg" width="450" height="625" loading="lazy" alt="Project 5"
+              class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h6">
+              <a href="#" class="card-title">Project 5</a>
+            </h3>
+
+            <span class="card-tag">Security</span>
+          </div>
+
+          <a href="#" class="btn-icon">
+            <img src="altumcode-XMFZqrGyV-Q-unsplash.jpg" width="43" height="20" loading="lazy"
+              alt="arrow-forward icon">
+          </a>
+
+        </div>
+
+        <div class="gallery-card">
+
+          <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+            <img src="shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" width="450" height="625" loading="lazy" alt="Project 6"
+              class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h6">
+              <a href="#" class="card-title">Project 6</a>
+            </h3>
+
+            <span class="card-tag">IoT</span>
+          </div>
+
+          <a href="#" class="btn-icon">
+            <img src="download (1).jpeg" width="43" height="20" loading="lazy"
+              alt="arrow-forward icon">
+          </a>
+
+        </div>
+
+      </li>
+
+      <li class="gallery-item" data-reveal>
+
+        <div class="gallery-card">
+
+          <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+            <img src="altumcode-PNbDkQ2DDgM-unsplash.jpg" width="450" height="625" loading="lazy"
+              alt="Project 7" class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h6">
+              <a href="#" class="card-title">Project 7</a>
+            </h3>
+
+            <span class="card-tag">Web</span>
+          </div>
+
+          <a href="#" class="btn-icon">
+            <img src="andy-kelly-0E_vhMVqL9g-unsplash.jpg" width="43" height="20" loading="lazy"
+              alt="arrow-forward icon">
+          </a>
+
+        </div>
+
+        <div class="gallery-card">
+
+          <figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;">
+            <img src="altumcode-XMFZqrGyV-Q-unsplash.jpg" width="450" height="625" loading="lazy"
+              alt="Project 8" class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h6">
+              <a href="#" class="card-title">Project 8</a>
+            </h3>
+
+            <span class="card-tag">Working</span>
+          </div>
+
+          <a href="#" class="btn-icon">
+            <img src="campaign-creators-pypeCEaJeZY-unsplash.jpg" width="43" height="20" loading="lazy"
+              alt="arrow-forward icon">
+          </a>
+
+        </div>
+
+      </li>
+
+    </ul>
+
+    <a href="#service" class="scroll-down">
+      <img src="./assets/images/scroll-down.svg" width="40" height="66" loading="lazy" alt="mouse scroll">
+    </a>
+
+    <img src="./assets/images/gallery-shape.svg" width="220" height="78" loading="lazy" alt="" class="shape">
+
+  </div>
+</section>
+
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" aria-label="photography category">
+        <div class="container">
+
+          <ul class="category-list">
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Landscape,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-1.jpg" width="600" height="690" loading="lazy" alt="Landscape"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Model,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-2.jpg" width="600" height="690" loading="lazy" alt="Model"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Street,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-3.jpg" width="600" height="690" loading="lazy" alt="Street"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Product,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-4.jpg" width="600" height="690" loading="lazy" alt="Product"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Fashion,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-2.jpg" width="600" height="690" loading="lazy" alt="Fashion"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Film,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-5.jpg" width="600" height="690" loading="lazy" alt="Film"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Architecture,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-6.jpg" width="600" height="690" loading="lazy" alt="Architecture"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Event,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-7.jpg" width="600" height="690" loading="lazy" alt="Event"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Wedding,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-8.jpg" width="600" height="690" loading="lazy" alt="Wedding"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">People,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-9.jpg" width="600" height="690" loading="lazy" alt="People"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Event,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-7.jpg" width="600" height="690" loading="lazy" alt="Event"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Food,</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-10.jpg" width="600" height="690" loading="lazy" alt="Food"
+                    class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+            <li class="category-item" data-reveal>
+              <a href="#" class="category-card">
+
+                <h3 class="h4 card-title">Health & Wellnes.</h3>
+
+                <figure class="card-banner img-holder" style="--width: 600; --height: 690;">
+                  <img src="./assets/images/category-11.jpg" width="600" height="690" loading="lazy"
+                    alt="Health & Wellnes" class="img-cover">
+                </figure>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about me">
+        <div class="container">
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title" data-reveal="right">
+              Hi. I’m <br>
+             Hassan Shah
+            </h2>
+
+            <div class="wrapper has-before" data-reveal="right">
+
+              <p class="section-text">
+                A passionate
+                <em class="em">Programmer and Web Developer</em>
+                who are working in this field for
+                <em class="em">recently 1 year.</em>
+                I’m ready to give you my best.
+              </p>
+
+              <img src="./assets/images/signature.png" width="151" height="92" loading="lazy" alt="signature"
+                class="img">
+
+            </div>
+
+          </div>
+
+          <figure class="about-banner" data-reveal="left">
+
+            <div class="img-holder has-before" style="--width: 512; --height: 684;">
+              <img src="WhatsApp Image 2024-03-06 at 21.45.59_baa05cf0.jpg" width="512" height="684" loading="lazy" alt="Riachard Ryan"
+                class="img-cover">
+            </div>
+
+            <img src="./assets/images/about-shape-1.png" width="178" height="178" loading="lazy" alt=""
+              class="shape shape-1">
+
+            <img src="./assets/images/about-shape-2.svg" width="659" height="653" loading="lazy" alt=""
+              class="shape shape-2">
+
+          </figure>
+
+          <img src="./assets/images/about-shape-3.svg" width="239" height="232" loading="lazy" alt=""
+            class="shape shape-3">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+<section class="section service" id="service" aria-labelledby="service-lable">
+
+  <p class="section-subtitle container" id="service-lable">My Services</p>
+
+  <ul class="service-list">
+
+    <li data-reveal>
+      <div class="service-card container">
+
+        <img src="th.jpeg" width="340" height="380" loading="lazy" alt="Web Development"
+          class="img">
+
+        <div>
+          <h3 class="h3 card-title">Web Development</h3>
+
+          <p class="card-subtitle">
+            Building responsive and functional websites.
+          </p>
+        </div>
+
+        <a href="#" class="btn-icon" aria-label="See more">
+          <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+            <path d="M0 10H41" stroke="white" stroke-width="2" />
+            <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+          </svg>
+        </a>
+
+      </div>
+    </li>
+
+    <li data-reveal>
+      <div class="service-card container">
+
+        <img src="download (1).jpeg" width="340" height="380" loading="lazy" alt="App Development"
+          class="img">
+
+        <div>
+          <h3 class="h3 card-title">Software Enginnering</h3>
+
+          <p class="card-subtitle">
+            Creating softwares and constraints.
+          </p>
+        </div>
+
+        <a href="#" class="btn-icon" aria-label="See more">
+          <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+            <path d="M0 10H41" stroke="white" stroke-width="2" />
+            <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+          </svg>
+        </a>
+
+      </div>
+    </li>
+
+    <li data-reveal>
+      <div class="service-card container">
+
+        <img src="OIP (5).jpeg" width="340" height="380" loading="lazy" alt="Machine Learning"
+          class="img">
+
+        <div>
+          <h3 class="h3 card-title">Database
+          </h3>
+
+          <p class="card-subtitle">
+            Implementing database models and solutions.
+          </p>
+        </div>
+
+        <a href="#" class="btn-icon" aria-label="See more">
+          <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+            <path d="M0 10H41" stroke="white" stroke-width="2" />
+            <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+          </svg>
+        </a>
+
+      </div>
+    </li>
+
+    <li data-reveal>
+      <div class="service-card container">
+
+        <img src="dsa.jpeg" width="340" height="10px" loading="lazy" alt="Cyber Security"
+          class="img">
+
+        <div>
+          <h3 class="h3 card-title">DSA</h3>
+
+          <p class="card-subtitle">
+            Problem Solving 
+          </p>
+        </div>
+
+        <a href="#" class="btn-icon" aria-label="See more">
+          <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+            <path d="M0 10H41" stroke="white" stroke-width="2" />
+            <path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2" />
+          </svg>
+        </a>
+
+      </div>
+    </li>
+
+  </ul>
+
+</section>
+
+<!-- 
+  - #PORTFOLIO
+-->
+
+<section class="section portfolio" id="portfolio" aria-labelledby="portfolio-label">
+  <div class="container">
+
+    <div class="portfolio-list">
+
+      <div class="wrapper">
+
+        <h2 class="h2 section-title" id="portfolio-label" data-reveal>My Recent Work.</h2>
+
+        <div class="portfolio-card" data-reveal>
+
+          <figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;">
+            <img src="domenico-loia-hGV2TfOh0ns-unsplash.jpg" width="700" height="605" loading="lazy" alt="E-commerce Website"
+              class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h4">
+              <a href="#" class="card-title">My Microsoft Website</a>
+            </h3>
+
+            <p class="card-tag">Web Development</p>
+          </div>
+
+          <a href="#" class="btn-icon" aria-label="See more">
+            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+              <path d="M0 10H41" stroke="black" stroke-width="2" />
+              <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+            </svg>
+          </a>
+
+        </div>
+
+        <div class="portfolio-card" data-reveal>
+
+          <figure class="card-banner img-holder has-before" style="--width: 700; --height: 1091;">
+            <img src="onur-binay-ekSKQYwauDM-unsplash.jpg" width="700" height="1091" loading="lazy" alt="Mobile App"
+              class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h4">
+              <a href="#" class="card-title">Mobile App</a>
+            </h3>
+
+            <p class="card-tag">App Development</p>
+          </div>
+
+          <a href="#" class="btn-icon" aria-label="See more">
+            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+              <path d="M0 10H41" stroke="black" stroke-width="2" />
+              <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+            </svg>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="wrapper">
+
+        <div class="portfolio-card" data-reveal>
+
+          <figure class="card-banner img-holder has-before" style="--width: 700; --height: 1000;">
+            <img src="pawel-czerwinski-WEizaiwLk1k-unsplash.jpg" width="700" height="1000" loading="lazy" alt="Data Analysis Dashboard"
+              class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h4">
+              <a href="#" class="card-title">Database</a>
+            </h3>
+
+            <p class="card-tag">Data Science</p>
+          </div>
+
+          <a href="#" class="btn-icon" aria-label="See more">
+            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+              <path d="M0 10H41" stroke="black" stroke-width="2" />
+              <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+            </svg>
+          </a>
+
+        </div>
+
+        <div class="portfolio-card" data-reveal>
+
+          <figure class="card-banner img-holder has-before" style="--width: 700; --height: 850;">
+            <img src="austin-distel-gUIJ0YszPig-unsplash.jpg" width="700" height="850" loading="lazy" alt="Machine Learning Model"
+              class="img-cover">
+          </figure>
+
+          <div class="card-content">
+            <h3 class="h4">
+              <a href="#" class="card-title">DSA</a>
+            </h3>
+
+            <p class="card-tag">Problem solving</p>
+          </div>
+
+          <a href="#" class="btn-icon" aria-label="See more">
+            <svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewBox="0 0 43 20" fill="none">
+              <path d="M0 10H41" stroke="black" stroke-width="2" />
+              <path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2" />
+            </svg>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <img src="./assets/images/portfolio-shape.svg" width="286" height="232" loading="lazy" alt="" class="shape">
+
+  </div>
+</section>
+
+</article>
+</main>
+
+
+
+
+
+<!-- 
+  - #FOOTER
+-->
+
+<footer class="footer">
+
+  <div class="footer-top section" id="contact">
+    <div class="container">
+
+      <p class="section-subtitle" data-reveal>Contact Me</p>
+
+      <h2 class="h2 section-title" data-reveal>
+        I am passionate about my work.For any question please contact us?
+      </h2>
+
+      <a href="mailto:your-email@example.com" class="btn-icon" data-reveal>
+        <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+      </a>
+
+      <img src="altumcode-PNbDkQ2DDgM-unsplash.jpg" width="159" height="176" loading="lazy" alt="programming image 1"
+        class="abs-img abs-img-1" data-reveal>
+
+      <img src="shahadat-rahman-BfrQnKBulYQ-unsplash.jpg" width="265" height="275" loading="lazy" alt="programming image 2"
+        class="abs-img abs-img-2" data-reveal>
+
+      <img src="fatos-bytyqi-Agx5_TLsIf4-unsplash.jpg" width="303" height="272" loading="lazy" alt="programming image 3"
+        class="abs-img abs-img-3" data-reveal>
+
+      <img src="markus-spiske-4T5MTKMrjZg-unsplash.jpg" width="175" height="175" loading="lazy" alt="programming image 4"
+        class="abs-img abs-img-4" data-reveal>
+
+      <img src="./assets/images/footer-shape.svg" width="185" height="134" loading="lazy" alt="" class="shape">
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="download__7_-removebg-preview.png" width="40" height="40" loading="lazy" alt="Programmer Logo">
+      </a>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">Fa.</a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">Insta.</a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">Tw.</a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">Li.</a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">Gh.</a>
+        </li>
+
+      </ul>
+
+      <p class="copyright">Made with Syed Hassan Hussain Shah</p>
+
+    </div>
+  </div>
+
+  <div class="footer-bg has-before">
+    <img src="altumcode-XMFZqrGyV-Q-unsplash.jpg" width="1920" height="1135" loading="lazy" alt="programming background"
+      class="img-cover">
+  </div>
+
+</footer>
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>0%</a>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
